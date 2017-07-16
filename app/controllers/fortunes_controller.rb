@@ -6,12 +6,12 @@ class FortunesController < ApplicationController
     @fourth_number = rand(100)
     @fifth_number = rand(100)
 
-    render("lucky.html.erb")
+    render("fortunes/lucky.html.erb")
   end
 
   def unlucky
     @numbers = [rand(100...1000), rand(100...1000), rand(100...1000), rand(100...1000), rand(100...1000)]
 
-    render("unlucky.html.erb")
+    render("fortunes/unlucky.html.erb")
   end
 end
