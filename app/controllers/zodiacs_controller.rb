@@ -2,13 +2,13 @@ class ZodiacsController < ApplicationController
   def ram
     @prediction = "As your professional dreams unfold, Aries, you may worry about the downside. First, there are new responsibilities that you might doubt your ability to fulfill. Second, you might be catapulted into an uncomfortable new realm of office politics. Don't let these matters put a damper on your enthusiasm. You have what it takes to fulfill the first concern and the wisdom to avoid the second. Onward and upward."
 
-    render("zodiacs/ram_template.html.erb")
+    render("zodiacs/ram.html.erb")
   end
 
   def bull
     @prediction = "Recent spiritual breakthroughs might have you feeling both exhilarated and downcast, Taurus. Your sensitive side tells you that this is a definite step forward on your spiritual path, but the logical side might cause you to doubt its reality. Take comfort in the fact that reality is relative and that what you're sensing is at least valid for you. Then keep moving ahead."
 
-    render("bull.html.erb")
+    render("zodiacs/bull.html.erb")
   end
 
   def twins

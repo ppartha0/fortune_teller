@@ -9,8 +9,8 @@ Rails.application.routes.draw do
 
   # Uncomment each route below ONE AT A TIME and debug.
 
-  get("/zodiacs/aries", { :controller => "zodiacs",  :action =>  "ram" })
-  # get("/zodiacs/taurus",      { :controller,   "zodiacs", :action,   "bull" })
+  get("/zodiacs/aries",   { :controller => "zodiacs",  :action => "ram" })
+  get("/zodiacs/taurus",  { :controller => "zodiacs",  :action => "bull" })
   # get(/zodiacs/gemini,        { :controller => "zodiacs", :action => "twins" })
   # get("/zodiacs/cancer"       { :controller => "zodiacs"  :action => "crab" })
   # get ("/zodiacs/leo",        { :controller => "zodiac",  :action => "lion" })
